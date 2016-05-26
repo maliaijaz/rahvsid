@@ -1,0 +1,222 @@
+/*FONTS*/
+
+/*@font-face {
+    font-family: 'BrandonGrotesque-Bold';
+    src: url('../fonts/BrandonGrotesque-Bold.otf');
+}*/
+
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('ProximaNova-Semibold.otf');
+}
+
+/*END FONTS*/
+
+
+
+
+/*Body styles*/
+
+.html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+/*    font-family: "BrandonGrotesque-Bold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+*/
+    font-family: "ProximaNova-Semibold", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+/*a {
+	color: black;
+}*/
+
+
+.center-descr {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 100;
+	    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.empty-space {
+	padding-bottom: 50px;
+}
+
+.empty-space-above {
+	padding-top: 50px;
+}
+
+/*End Body Styles*/
+
+
+/*NAVBAR STYLES*/
+
+/*Making the navbar transparent*/ 
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.text-transition {
+	-moz-transition: color .2s ease-in;
+	-o-transition:color .2s ease-in;
+	-webkit-transition:color .2s ease-in;
+
+}
+.text-transition:hover {
+	color: #e6e6e6;
+}
+
+.navbar-nav:hover{
+	color: blue;
+}
+
+
+/*END NAVBAR STYLES*/
+
+
+/*FOOTER STYLES*/
+
+
+/*Social Media Icon Styles*/
+
+
+.icon-position {
+	float: right;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.social-media-positioning {
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+/*End social media icon styles*/
+
+
+.white-container {
+	background-color: white;
+	color: white;
+}
+
+.street-footer {
+
+	background-color: black;
+	color: black;
+}
+
+.footer-text {
+	color: white;
+}
+
+.footer {
+	position: absolute;
+	
+	width: 100%;
+	/* Set the fixed height of the footer here*/
+	height: 150px;
+	background-color: black;
+}
+
+.text-muted {
+	
+	color: white;
+	font-weight: 500;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.middle-social-icon {
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.social-container {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.designed-by {
+	color: #999999;
+	font-size: 12px;
+
+}
+
+a {
+	color: #999999;
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+
+.social-space {
+	margin-bottom: 25px;
+}
+/*END FOOTER STYLES*/
+
+/* About Page Styles*/
+
+.about-text {
+	padding-top: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+/*End About Page Styles*/
+
+
+/*Under construction*/
+
+.construct {
+	text-align: center;
+	font-size: 36px;
+}
+
+/*End Under Construction*/
+
+
+/*Image Styles*/
+
+
+@media screen and (max-width: 860px){
+
+.icon-position {
+	float: none;
+}
+
+.social-media-positioning {
+	text-align: center;
+	padding-right: 0px;
+}
+}
+
+/*End Image Styles*/
+
